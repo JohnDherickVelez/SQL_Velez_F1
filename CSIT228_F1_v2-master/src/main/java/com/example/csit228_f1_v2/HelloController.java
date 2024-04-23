@@ -1,14 +1,18 @@
 package com.example.csit228_f1_v2;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.Scanner;
 
 public class HelloController {
@@ -31,5 +35,14 @@ public class HelloController {
         p.getChildren().add(homeview);
 
 
+    }
+
+    // Inside the onLoginClick method of HelloController class
+    public void onLoginClick(ActionEvent actionEvent) {
+
+    }
+
+
+    public void onRegisterClick(ActionEvent actionEvent) {
     }
 }
